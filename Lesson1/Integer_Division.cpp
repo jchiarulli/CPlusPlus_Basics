@@ -11,6 +11,11 @@ int main()
 	b = 3;
 	
 	cout << "The result is " << a/b << endl;
+	
+	cout << "The result is " << a%b << endl;
+	cout << "The result is " << b%a << endl;
+
+
 
 	return 0;
 }
