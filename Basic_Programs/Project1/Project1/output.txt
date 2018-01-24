@@ -1,0 +1,21 @@
+This program accepts 10 temperatures from a file
+- enters them into an array
+- (optional) sorts the array in ascending order and
+- outputs the temps >= 98.6
+In sorted order the temperatures are: 
+[0] 30.7 
+[1] 34.4 
+[2] 45.6 
+[3] 78.8 
+[4] 97.5 
+[5] 98.6 
+[6] 98.7 
+[7] 99.7 
+[8] 100.4 
+[9] 100.5 
+Temperatures >= 98.6: 
+[5] 98.6 
+[6] 98.7 
+[7] 99.7 
+[8] 100.4 
+[9] 100.5 

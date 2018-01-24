@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\c++\project3\project3\source.cpp(76): error C3861: 'fill_array': identifier not found
+d:\c++\project3\project3\source.cpp(77): error C3861: 'sort': identifier not found

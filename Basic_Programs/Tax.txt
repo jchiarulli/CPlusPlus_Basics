@@ -1,0 +1,67 @@
+//DISPLAY 3.5 Multiway if-else Statement
+//Program to compute state income tax.
+#include <iostream>
+using namespace std;
+
+int getData();
+double calcTax(int netIncomePar);
+void displayResults(int netIncomePar, double taxbillPar);
+
+
+//This program outputs the amount of state income tax due computed
+//as follows: no tax on income up to $15,000; 5% on income between 
+//$15,001 and $25,000; 10% on income over $25,000.
+
+
+int main( )
+{
+    int net_income;
+    double tax_bill;
+  
+	net_income = getData();
+   tax_bill = calcTax(net_income);
+   displayResults(net_income, tax_bill);
+
+    return 0;
+}
+
+int getData()
+{
+	int net_income;
+cout << "Enter net income (rounded to whole dollars) $";
+    cin >> net_income;
+	return net_income;
+
+}
+
+double calcTax(int netIncomePar)
+{
+	double taxBillCalc;
+	double five_percent_tax, ten_percent_tax;
+if (netIncomePar <= 15000)
+        taxBillCalc = 0;
+    else if ((netIncomePar > 15000) && (netIncomePar <= 25000))
+        //5% of amount over $15,000
+        taxBillCalc = (0.05*(netIncomePar - 15000));
+    else //net_income > $25,000
+    {
+        //five_percent_tax = 5% of income from $15,000 to $25,000.
+        five_percent_tax = 0.05*10000;
+        //ten_percent_tax = 10% of income over $25,000.
+        ten_percent_tax = 0.10*(netIncomePar - 25000);
+        taxBillCalc = (five_percent_tax + ten_percent_tax);
+    }
+return taxBillCalc;
+
+}
+
+void displayResults(int netIncomePar, double taxbillPar)
+{
+    cout.setf(ios::fixed);
+    cout.setf(ios::showpoint);
+    cout.precision(2);
+    cout << "Net income = $" << netIncomePar << endl
+         << "Tax bill = $" << taxbillPar << endl;
+	return;
+
+}

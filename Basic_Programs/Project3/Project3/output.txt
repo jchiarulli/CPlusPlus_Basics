@@ -1,0 +1,7 @@
+In sorted order the numbers are:
+9.90 5.34 3.45 1.23 
+The average of the numbers is 4.98
+The max number is 9.90
+The min number is 1.23
+5.34 is stored in array position 1.00
+(Remember: The first position is 0.)
