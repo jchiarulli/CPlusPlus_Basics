@@ -55,6 +55,8 @@ int main()
 	int j = 5;
 	cout << j++ << endl;
 	cout << ++j << endl;
+	cout << (j +=1) << endl;
+	cout << (j = j + 14) << endl;
 	cout << (j+=14) << endl;
 	cout << (j/=10) << endl;
 	cout << (j*=10) << endl;
