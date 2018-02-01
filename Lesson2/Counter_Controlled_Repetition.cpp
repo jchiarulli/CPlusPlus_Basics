@@ -31,7 +31,17 @@ int main()
 	for(int number = 2; number <= 100; number+=2)
 		sum+=number;
 
-	cout << "Sum is " << sum << endl;
+	cout << "Sum is " << sum << endl << endl;
+	
+	int k = 0, l = 0;
 
+	while(k + l <= 10)
+	{
+		cout << k + l << endl;
+
+		k++;
+		l++;
+	}
+	
 	return 0;
 }
