@@ -11,8 +11,10 @@ int main()
 	do
 	{
 		sum += cnt;
-		cnt++;
-	}while(cnt <= n);
+		cout << sum << endl;
+		//cnt++;
+		
+	}while(++cnt <= n);
 
 	cout << "cnt = " << cnt << endl << "sum = " << sum << endl << endl;
 
@@ -41,9 +43,11 @@ int main()
 	cin >> n2;
 
 	for(int I = 0; I < n1; I++)
+	{	
+		cout << I << endl;
 		for(int j = 0; j < n2; j++)
-			cout << "Hi" << endl;
-
+			cout << "Hi " << j << endl;
+	}
 	int k;
 
 	cout << "Please type in a number ";
