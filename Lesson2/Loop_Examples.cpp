@@ -11,7 +11,7 @@ int main()
 	do
 	{
 		sum += cnt;
-		cout << sum << endl;
+		//cout << sum << endl;
 		//cnt++;
 		
 	}while(++cnt <= n);

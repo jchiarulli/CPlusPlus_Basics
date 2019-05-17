@@ -9,7 +9,7 @@ int main()
 	int x = 3;
  
 	// y refers to (is an alias for) x
-	int &y = x;	// y must be initialized 
+	int &y = x;	// y must be initialized	
     
 	cout << "x = " << x << endl << "y = " << y << endl;
 	y = 7;

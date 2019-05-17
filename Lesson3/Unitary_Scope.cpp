@@ -1,4 +1,4 @@
-// Using the unary scope resolution operator.
+// Using the unitary scope resolution operator.
 #include <iostream>
 
 using std::cout;

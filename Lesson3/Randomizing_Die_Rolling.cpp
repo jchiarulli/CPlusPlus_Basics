@@ -31,8 +31,8 @@ int main()
 		if (counter % 5 == 0)
 		{
 			cout << endl;
-		} // end for 
-	}
+		} 
+	} // end for
 
 	return 0;  // indicates successful termination  
 } // end main

@@ -18,8 +18,8 @@ int main()
 	else if(roll(result) == 2)
 		cout << "The result was 2" << endl << "Player 2 Wins!" << endl;
 	else
-		cout << "The result was 0" << endl << "It's a tie!" << endl;	
-		
+		cout << "The result was 0" << endl << "It's a tie!" << endl;
+
 	return 0;
 }
 
@@ -31,7 +31,6 @@ int roll(int x)
 
 	if(player1 > player2)
 	{
-
 		return 1;
 	}
 	else if(player2 > player1)
